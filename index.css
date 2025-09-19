@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #bb3300
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#navul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  list-style-type: none;
+  padding: 10px 0;
+  background-color: #000;
+}
+
+#navul a {
+  color: #eee;
+}
+
+#socials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  list-style-type: none;
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+
+h2, h3{
+  margin: 20px auto;
+}
+
+#welcome-section {
+  position: relative;
+  top: 50px;
+  height: 500px;
+}
+
+#project-section {
+  height: 700px;
+}
+
+@media (max-width: 660px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
